@@ -48,6 +48,8 @@
     margin-top: -48px;
 }
 
+
+
 .search-field {
     margin: 0 10px;
     text-align: left;
@@ -89,4 +91,29 @@
     height: 40px;
     font-size: 1.5em;
     cursor: pointer;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .search-bar {
+        flex-direction: row;
+        padding: 2rem 2rem 2rem 2rem;
+        border-radius: 2rem;
+        width: 100%;
+    }
+
+    .search-field input {
+        width: 10rem;
+        padding: 5px;
+        border-width: 0px 0px 1px;
+        border-color: #DADADA;
+    }
+
+    .search-button {
+        width: fit-content;
+    }
+
+    .search-button button {
+        width: fit-content;
+    }
 }
