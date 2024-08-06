@@ -1,0 +1,92 @@
+/* styles.css */
+
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-nav .logo {
+    font-size: 2rem;
+}
+
+.top-nav .auth {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-bg {
+    background-image: url('/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.search-bar {
+    z-index: 100;
+    margin: 2rem auto 0 auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: -48px;
+}
+
+.search-field {
+    margin: 0 10px;
+    text-align: left;
+}
+
+.search-field label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.search-field input {
+    width: 16rem;
+    padding: 5px;
+    border-width: 0px 0px 1px;
+    border-color: #DADADA;
+}
+
+.search-field input::placeholder {
+    text-align: center;
+}
+
+.search-button {
+    text-align: center;
+    width: 14rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.search-button button {
+    background-color: black;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 0ch;
+    height: 40px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
