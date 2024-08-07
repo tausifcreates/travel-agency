@@ -45,8 +45,8 @@ const Header = () => {
               <input type="text" id="guests" placeholder="Add guest" />
             </div>
             <div className={styles["search-button"]}>
-              <div className="rounded-full p-2 bg-black cursor-pointer">
-                <Image src="/search.svg" alt="" width={32} height={32} />
+              <div className="p-2 bg-black cursor-pointer">
+                <Image className="mx-auto" src="/search.svg" alt="" width={32} height={32} />
               </div>
             </div>
           </div>

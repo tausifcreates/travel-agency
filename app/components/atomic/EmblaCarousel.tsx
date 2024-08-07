@@ -29,11 +29,11 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
     <section className="embla">
       <div className="headers flex flex-row justify-between mb-12">
         <div className="explore-texts text-start">
-          <h1 className="text-[1.75rem] lg:text-5xl font-bold">
+          <h1 className="text-[1.75rem] lg:text-5xl font-bold px-6">
             Explore Our Destinations
           </h1>
           <div className="h-2 lg:h-6" />
-          <p className="text-lg lg:text-xl text-start lg:w-[48rem]">
+          <p className="text-lg lg:text-xl text-start lg:w-[48rem] px-6">
             From the serene beaches of Bali to the vibrant streets of Paris,
             discover a world of possibilities with our carefully curated
             destinations.
